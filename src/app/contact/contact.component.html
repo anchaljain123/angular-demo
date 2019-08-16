@@ -1,0 +1,8 @@
+<p>contact works!</p>
+<form (ngSubmit)="onSubmit(formref)" #formref="ngForm">
+        <div class="form-group">
+          <label for="uname">Title</label>
+          <input type="text" ngModel id="title" name="title" placeholder="Enter title" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">SUBMIT</button>
+</form>
